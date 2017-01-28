@@ -10,11 +10,11 @@ import UIKit
 import CryptoSwift
 
 // Pre requirements and notes:
-// - when you compiling this project on Simulator what you need to do is adding the "Share keychain entitlement
+// - when you compile this project for Simulator need to add the "Share keychain entitlement"
 // - main goal of this project is to show main steps in encryption and decryption process based on AES algorithm
-// - remember not to create your own crypto! Recomendation is to use libararies/components RNCryptor
+// - remember not to create your own crypto! Recomendation is to use libararies/components such as e.g. RNCryptor
 // - this project is a part of post: https://swifting.io/blog/2017/01/16/33-security-implement-your-own-encryption-schema/
-// - project was improved based on Rob Napier feedback
+// - project was improved based on Rob Napier's feedback
 
 class ViewController: UIViewController {
     
@@ -270,12 +270,6 @@ class ViewController: UIViewController {
         }
         
         return data
-    }
-
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
 
